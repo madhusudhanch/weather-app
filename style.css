@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(231, 231, 231);
+  font-family: "Poppins", sans-serif;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: white;
+  padding: 20px;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 70%;
+  outline: none;
+  background-color: rgb(62, 62, 62);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+input::placeholder {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+  background-color: rgb(62, 62, 62);
+  border: none;
+  padding: 10px;
+  width: 27%;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: black;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+.hidden {
+  display: none;
+}
+
+#weather-info {
+    margin-top: 20px;
+}
+
+#error-msg {
+    margin-top: 20px;
+    color: red;
+}
