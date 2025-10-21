@@ -1,3 +1,8 @@
+## Live Demo
+Play the game online: [Weather App](https://madhusudhanch.github.io/weather-app/)
+
+---
+
 # ☀️ Weather App
 
 A **Weather App** built using **HTML, CSS, and JavaScript**.  
